@@ -1,0 +1,6 @@
+PrintNightmare Vulnerability Fix - v1.0
+--------------------------------------------------
+Which mode would you like to run?
+    - Mode 1: Fix
+    - Mode 2: Temp Enable
+    - Mode 3: Restore
