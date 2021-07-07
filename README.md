@@ -16,6 +16,14 @@ Unless you are a server admin, your default settings in Windows 10 probably will
 ```
 Get-ChildItem "LOC" -recurse | Unblock-File
 ```
+NOTE: If you get the error message: "File C:\Something\PrintNightmare-Fix.ps1 cannot be loaded because the execution of scripts is disabled on this system. Please see get-help about_signing for more details.", then in that Admin PowerShell terminal, enter this command:
+
+Set-ExecutionPolicy RemoteSigned
+
+Once you no longer need to use this script, use the following command to secure PowerShell again:
+
+Set-ExecutionPolicy Restricted
+## Run The Script
 Once in the correct folder and the PowerShell issue above fixed, type the following command to run the script:
 ```
 .\PrintNightmare-Fix.ps1
